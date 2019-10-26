@@ -16,7 +16,7 @@ def pig_latin(word)
     word = word[1..-1]
     first_letter = word[0]
   end
-# This if statement selects the initial/ any word who has a capital
+# This if statement selects the initial/ any word who has a capital (x[0].capitalize)
   if x[0] == x[0].capitalize
     word.downcase!
     word.capitalize!

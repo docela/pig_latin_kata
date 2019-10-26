@@ -17,14 +17,14 @@ def pig_latin(word)
       word = word[1..-1]
       first_letter = word[0]
     end
-  "#{word}ay"
+    "#{word}ay"
   end
 end
 
 ## Tests:
 
-require_relative './helpers/assert_equal'
-assert_equal(pig_latin('cram'), 'amcray')
-assert_equal(pig_latin('sprinkle'), 'inklespray')
-assert_equal(pig_latin('dog'), 'ogday')
-assert_equal(pig_latin('up'), 'upway')
+require_relative "./helpers/assert_equal"
+assert_equal(pig_latin("cram"), "amcray")
+assert_equal(pig_latin("sprinkle"), "inklespray")
+assert_equal(pig_latin("dog"), "ogday")
+assert_equal(pig_latin("up"), "upway")
